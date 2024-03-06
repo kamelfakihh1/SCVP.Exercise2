@@ -69,12 +69,12 @@ private:
         //  - Is the process triggered when Z changes?
         //  - Are some of the writes to A and B ignored?
 
-        //A.write(false);
-        //B.write(false);
-        //A.write(true);
-        //B.write(false);
-        //A.write(false);
-        //B.write(true);
+        A.write(false);
+        B.write(false);
+        A.write(true);
+        B.write(false);
+        A.write(false);
+        B.write(true);
 
         // Print a new line
         std::cout << std::endl;
